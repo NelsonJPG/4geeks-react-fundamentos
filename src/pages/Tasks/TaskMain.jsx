@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import People from '../People/People';
 
 const api4Geek = 'http://localhost:5000/tasks';
 
@@ -106,6 +107,7 @@ const TaskMain = () => {
     return (
         <div>
             <h3>Modulo de Tareas</h3>
+            <People />
             
             { puedeEditar? 
                 null

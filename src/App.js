@@ -1,14 +1,13 @@
 import React from 'react'
-import TaskMain from './pages/Tasks/TaskMain'
+import Routes from './Routes'
 
 const App = () => {
   return (
-    <div>
-        <h2>Entrada</h2>
-        <TaskMain />
-        {/* 
-        */}
-    </div>
+    <>
+       
+      <Routes />
+
+    </>
   )
 }
 

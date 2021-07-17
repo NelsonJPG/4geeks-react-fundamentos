@@ -7,6 +7,17 @@
     {
       "label": "Prueba III",
       "id": 4
+    },
+    {
+      "label": "jajaja",
+      "id": 5
+    },
+    {
+      "label": "sss",
+      "id": 6
     }
+  ],
+  "users": [
+    { "id": 1, "nombre": "nelson", "apellido": "nelson" }
   ]
 }
