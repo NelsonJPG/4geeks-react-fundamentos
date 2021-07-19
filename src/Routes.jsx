@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Menu from './components/Menu'
 import TaskMain from './pages/Tasks/TaskMain'
+import Users from './pages/Users/Users'
 const Routes = () => {
     return (
       
@@ -24,10 +25,7 @@ const Routes = () => {
                         <button>Login</button>
                     </div>
                 </Route>
-                <Route exact path="/user">
-                    <h2>Lista Usuarios</h2>
-                   
-                </Route>
+                <Route exact path="/user" component={Users} />
                 <Route path="/user/:id">
                     <h2>Detalle del Usuario</h2>
                 </Route>

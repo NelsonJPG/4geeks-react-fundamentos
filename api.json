@@ -18,6 +18,17 @@
     }
   ],
   "users": [
-    { "id": 1, "nombre": "nelson", "apellido": "nelson" }
+    {
+      "id": 2,
+      "nombre": "Ehiber",
+      "apellido": "Graterol",
+      "username": "EhiberGraterol"
+    },
+    {
+      "nombre": "Alan",
+      "apellido": "Espinoza",
+      "username": "AlanE",
+      "id": 3
+    }
   ]
 }
