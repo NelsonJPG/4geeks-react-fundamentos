@@ -1,10 +1,23 @@
 import React from 'react'
+import axios from 'axios';
 
 const apiUsers = 'http://localhost:5000/users'
 
 const Users = () => {
 
     const getAllUsers = async () => {
+
+        // let userDeleted = await axios.delete(`${apiUsers}/1`)
+        // let usersEdit = await axios.put(`${apiUsers}/1`, {username: '', nombre: '', apellido: ''})
+        // let userCreated = await axios.post(`${apiUsers}`, {username: '', nombre: '', apellido: ''})
+        // let usersList = await axios.get(`${apiUsers}`)
+        // let userFound = await axios.get(`${apiUsers}/1`)
+        //console.log(users.data);
+
+
+
+
+
 
         // method GET lista de elementos (users) o una lista simple (1 user)
 
@@ -23,9 +36,9 @@ const Users = () => {
 
         let respuesta = await fetch(`${apiUsers}//sdfjsjfjshfs`, options) // consumir recursos externos 
             
-        if(respuesta.status !== 200){
-            alert('error')
-        }
+        // if(respuesta.status !== 200){
+        //     alert('error')
+        // }
         console.log(respuesta)
         // .then( respuesta => respuesta.json() ) // formato de respuesta
             // .then( respuesta => console.log(respuesta)) // valor en caso de exito
